@@ -31,3 +31,16 @@ Clone the repo:
 ```bash
 git clone https://github.com/Arnavvvvvvvvv/DiceGame.git
 cd DiceGame
+
+project/
+│
+├── public/                 # Static assets
+├── src/                   # Source code
+│   ├── components/        # Reusable components
+│   ├── assets/            # Images, SVGs
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── vite.config.js
+├── package.json
+└── README.md
