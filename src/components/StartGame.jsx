@@ -1,9 +1,10 @@
 import styled from "styled-components"
+import dice from "../assets/diceimagestart.jpg"
 
 const StartGame = ({toggle}) => {
   return (
     <Container>
-      <img src="https://u7.uidownload.com/vector/393/398/vector-dices-eps-ai.jpg" alt="dice" />
+      <img src={dice} alt="dice" />
       <div className="content">
         <h1>DICE GAME</h1>
         <Button onClick={toggle}>Play Now</Button>      
